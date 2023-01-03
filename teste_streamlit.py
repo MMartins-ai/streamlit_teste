@@ -7,7 +7,7 @@ dic_df = {
     'Valores':[5,6,7,1,3,8,9,4,5,6]
 }
 
-df = pd.DataFrame(dic_df)
+df = pd.DataFrame(dic_df, index='Nome')
 
 st.write("""
     # Meu Primeiro APP
