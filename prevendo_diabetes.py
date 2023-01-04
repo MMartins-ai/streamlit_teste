@@ -42,14 +42,14 @@ def get_user_date():
     idade = st.sidebar.slider('Idade',15,100,21)
     #Dicionário para receber informações
     user_dic = {
-        'Gravidez':gravidez,
-        'Glicose':glicose,
-        'Pressão':pressao,
-        'Pele':pele,
-        'Insulina':insulina,
-        'IMC': imc,
-        'HFD': hfd,
-        'Idade': idade
+        'Pregnancies':gravidez,
+        'Glucose':glicose,
+        'BloodPressure':pressao,
+        'SkinThickness':pele,
+        'Insulin':insulina,
+        'BMI': imc,
+        'DiabetesPedigreeFunction': hfd,
+        'Age': idade
     }
     variaveis= pd.DataFrame(user_dic,index=[0])
     return variaveis
