@@ -32,7 +32,7 @@ st.write("Paciente:", user)
 
 #Definindo função para solicitar dados e criar dataframe
 def get_user_date():
-    gravidez = st.sidebar.slider('Gravidez' 0,15,1,step=1)
+    gravidez = st.sidebar.slider('Gravidez', 0,15,1,step=1)
     glicose = st.sidebar.slider('Glicose',0,200,110)
     pressao = st.sidebar.slider('Pressão Sanguínea',0,122,72)
     pele = st.sidebar.slider('Espessura da Pele',0,99,20)
