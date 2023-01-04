@@ -64,7 +64,6 @@ graf = st.bar_chart(variaveis_do_usuario)
 
 previsao = tree_clf.predict(variaveis_do_usuario)
 st.subheader('Previsões')
-st.write(previsao)
 
 if previsao[0] == 0:
     st.write(f'O\A paciente {user} não tem diabetes')
