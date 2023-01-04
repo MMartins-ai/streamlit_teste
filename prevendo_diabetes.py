@@ -51,7 +51,7 @@ def get_user_date():
         'HFD': hfd,
         'Idade': idade
     }
-    variaveis= pd.DataFrame(user_dic,index=0)
+    variaveis= pd.DataFrame(user_dic,index=[0])
     return variaveis
 
 variaveis_do_usuario = get_user_date()
